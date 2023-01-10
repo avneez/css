@@ -1,10 +1,7 @@
-body{
-    background-color: rgb(242, 248, 249);
-    margin: 0;
-}
 
 .navbar a {
   text-decoration: none;
+  color:black;
 }
 .navbar ul {
     overflow:auto;
@@ -18,12 +15,14 @@ body{
 
 .logo {
     float: left;
-    margin-left:180px;
+    margin-left:160px;
+    color: black;
 }
 
 
 .navbar li {
     float:right;
+    color: black;
     /* display: flex; */
     list-style: none;
     margin-right: 15px;
