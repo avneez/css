@@ -5,7 +5,7 @@
 }
 .navbar ul {
     overflow:auto;
-    padding:0;
+    /* padding:0; */
     margin-right: 160px;
     /* float: right; */
     /* width: 50%; */
@@ -21,9 +21,9 @@
 
 
 .navbar li {
+    /* display: flex; */
     float:right;
     color: black;
-    /* display: flex; */
     list-style: none;
     margin-right: 15px;
 }
@@ -34,13 +34,16 @@
     color: white;
     display: flex;
     justify-content: center;
-    overflow: auto;
+    overflow: hidden;
+    /* scrollbar-width: 1px; */
 }
 
 .imageContainer {
     width: 80%;
     position: relative;
     background-color: black;
+    overflow: auto;
+    box-sizing: content-box;
 }
 
 .imageContainer img {
